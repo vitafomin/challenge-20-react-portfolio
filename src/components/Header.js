@@ -1,6 +1,7 @@
 import React from "react";
+import style from "./style/style.css";
 
-export default function Header() {
+function Header() {
     return (
     <header className="head">
         <h1 id="name">Vita Fomin</h1>
@@ -14,4 +15,6 @@ export default function Header() {
         </nav>
     </header>
     );
-}
+};
+
+export default Header;

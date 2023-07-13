@@ -1,13 +1,20 @@
 import React from "react";
+import sand from "../images/sand.png"
+import image1 from "../images/image1.avif"
+import image2 from "../images/image2.png"
+import image3 from "../images/image3.jpeg"
+import image4 from "../images/image4.jpeg"
+import image5 from "../images/image5.webp"
+import style from "./style/style.css";
 
-export default function MainSection() {
+function MainSection() {
     return (
      <div>
         <section>
             <a href="#">
                 <h3 className="float">Software Engineer</h3>
                     <div className="image">
-                        <img src="./assets/images/new-image.jpeg" alt="sand"/>
+                        <img src={sand} alt="sand"/>
                     </div>
             </a>
         </section>
@@ -36,7 +43,7 @@ export default function MainSection() {
                         <h4 id="float-img-1">Abstract
                             <p>HTML, CSS</p>
                         </h4>
-                        <img src="./assets/images/image-01.avif" alt="abstract white"/>
+                        <img src={image1} alt="abstract white"/>
                     </a>
                 </div>
                 <div className="small">
@@ -45,26 +52,26 @@ export default function MainSection() {
                             <h4 id="float-img-2">Building Blocks
                             <p>HTML</p>
                             </h4>
-                            <img src="./assets/images/image1.png" alt="abstract black"/>
+                            <img src={image2}/>
                         </a>
                     </div>
                     <a href="#">
                         <h4 id="float-img-3">Wave
                             <p>HTML, CSS</p>
                         </h4>
-                        <img src="./assets/images/image2.jpeg" alt="abstract blue"/>
+                        <img src={image3}/>
                     </a>
                     <a href="#">
                         <h4 id="float-img-4">Perspective
                             <p>HTML, JavaScript</p>
                         </h4>
-                        <img src="./assets/images/image6.jpeg" alt="abstract phone"/>
+                        <img src={image4} alt="abstract phone"/>
                     </a>
                     <a href="#">
                         <h4 id="float-img-5">Illusion
                             <p>HTML, CSS, JavaScript</p>
                         </h4>
-                        <img src="./assets/images/image7.webp" alt="abstract"/>
+                        <img src={image5} alt="abstract"/>
                     </a>                    
                 </div>
             </div>
@@ -72,3 +79,5 @@ export default function MainSection() {
      </div>
     )
 };
+
+export default MainSection;

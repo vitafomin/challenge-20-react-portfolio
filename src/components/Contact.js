@@ -1,6 +1,7 @@
 import React from "react";
+import style from "./style/style.css";
 
-export default function Contact() {
+function Contact() {
     return (
         <section id="contact">
             <div className="contact-title">
@@ -13,4 +14,6 @@ export default function Contact() {
             </div>
         </section>
     )
-}
+};
+
+export default Contact;
