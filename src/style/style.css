@@ -1,5 +1,5 @@
 header {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,6 +66,32 @@ nav a:hover {
   color: rgb(107, 95, 67);
 }
 
+.background-image {
+  background-image: url('../images/sand.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.myImage {
+  width: 295px;
+  height: 295px;
+  border-radius: 110px;
+  border-bottom-left-radius: 100%;
+  border-end-end-radius: 100%;
+  border-start-end-radius: 100%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-end-start-radius: 100%;
+  border-bottom-left-radius: 100%;
+  margin-left: 5px;
+}
+
+
+/* img {
+  display: flex;
+  height: 200px;
+  margin-top: 0px;
+} */
 
 img {
   display: flex;
@@ -78,18 +104,20 @@ img {
 #about {
   display: flex;
   height: 215px;
+  margin-left: 10px;
 }
 
 .about-title {
   border-right: 3px solid black;
-  margin-top: 15;
+  margin-top: 20px;
+  margin-left: 58px;
   
 }
 
 #mypara {
   width: 70%;
   margin-left: 30px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 #work {
@@ -99,13 +127,16 @@ img {
 }
 
 .work-title {
-    width: 263px;
+    width: 121px;
     border-right: 3px solid black;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 
 #mywork {
   width: 70%;
-    margin-left: 70px; 
+    margin-left: 55px; 
+    margin-top: 25px;
 }
 
 #mywork img {
@@ -114,7 +145,9 @@ img {
 }
 
 .big {
-    width: 917px; 
+    width: 916px; 
+    margin: 5px;
+    margin-left: 6px;
 }
 
 .small {
@@ -126,11 +159,12 @@ img {
 .small a img {
     width: 450px;
     height: 250px;
+    margin: 5px;
 }
  
 #float-img-1 {
-    width: 120;
-    height: 30;
+    width: 130px;
+    height: 50px;
     text-align: center;
     padding: 8;
     text-decoration: none;
@@ -145,40 +179,41 @@ img {
 
 #float-img-1 p {
     margin-top: 0;
-    font-size: 10;
+    font-size: 12px;
+    width: 120px;
 }
 
 #float-img-2 {
-    width: 120;
-    height: 30;
+    width: 150px;
+    height: 50px;
     text-align: center;
     padding: 8;
     text-decoration: none;
     position: relative;
     position: absolute;
     bottom: -660;
-    left: 345;
+    margin-left: 9px;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 17;
 }
 
 #float-img-2 p {
-    display: inline;
+    /* display: inline; */
     margin-top: 0;
-    font-size: 10;
+    font-size: 12px;
 }
 
 #float-img-3 {
-    width: 105;
-    height: 30;
+    width: 150px;
+    height: 50px;
     text-align: center;
     padding: 8;
     text-decoration: none;
     position: relative;
     position: absolute;
     bottom: -660;
-    left: 813;
+    margin-left: 9px;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 17;
@@ -186,19 +221,19 @@ img {
 
 #float-img-3 p {
     margin-top: 0;
-    font-size: 10;
+    font-size: 12px;
 }
 
 #float-img-4 {
-    width: 120;
-    height: 30;
+    width: 150px;
+    height: 50px;
     text-align: center;
     padding: 8;
     text-decoration: none;
     position: relative;
     position: absolute;
     bottom: -960;
-    left: 345;
+    margin-left: 9px;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 18;
@@ -206,19 +241,19 @@ img {
 
 #float-img-4 p {
     margin-top: 0;
-    font-size: 10;
+    font-size: 12px;
 }
 
 #float-img-5 {
-    width: 120;
-    height: 30;
+    width: 160px;
+    height: 50px;
     text-align: center;
     padding: 8;
     text-decoration: none;
     position: relative;
     position: absolute;
     bottom: -960;
-    left: 813;
+    margin-left: 9px;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 18;
@@ -226,7 +261,7 @@ img {
 
 #float-img-5 p {
     margin-top: 0;
-    font-size: 10;
+    font-size: 12px;
 } 
 
 #mywork a:hover {
@@ -242,8 +277,9 @@ img {
 
 .contact-title {
     border-right: 3px solid black;
-    margin-left: -18;
+    margin-left: 50px;
     margin-bottom: 4;
+    margin-top: 25px;
 }
 
 #mycon {
