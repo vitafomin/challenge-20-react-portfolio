@@ -74,7 +74,7 @@ nav a:hover {
 .myImage {
   width: 295px;
   height: 295px;
-  border-radius: 110px;
+  border-radius: 100%;
   border-bottom-left-radius: 100%;
   border-end-end-radius: 100%;
   border-start-end-radius: 100%;
