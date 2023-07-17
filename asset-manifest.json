@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/challenge-20-react-portfolio/static/css/main.9166949a.css",
+    "main.js": "/challenge-20-react-portfolio/static/js/main.a5795357.js",
+    "static/media/image5.webp": "/challenge-20-react-portfolio/static/media/image5.a7abe7b7b7fcc044d235.webp",
+    "static/media/RoamReady.jpeg": "/challenge-20-react-portfolio/static/media/RoamReady.527fae92a8dfb17270af.jpeg",
+    "static/media/image4.jpeg": "/challenge-20-react-portfolio/static/media/image4.108769df9808cb597fa8.jpeg",
+    "static/media/sand.jpeg": "/challenge-20-react-portfolio/static/media/sand.1a09cc243664a4077827.jpeg",
+    "static/media/profilePic.jpg": "/challenge-20-react-portfolio/static/media/profilePic.10f17d058326fa42d0b5.jpg",
+    "static/media/Resume20.pdf": "/challenge-20-react-portfolio/static/media/Resume20.d6228201f8184831d4e2.pdf",
+    "static/media/image1.avif": "/challenge-20-react-portfolio/static/media/image1.e44a9deeff6d3fde8d45.avif",
+    "index.html": "/challenge-20-react-portfolio/index.html",
+    "main.9166949a.css.map": "/challenge-20-react-portfolio/static/css/main.9166949a.css.map",
+    "main.a5795357.js.map": "/challenge-20-react-portfolio/static/js/main.a5795357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9166949a.css",
+    "static/js/main.a5795357.js"
+  ]
+}
