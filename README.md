@@ -13,6 +13,7 @@ For this application to work you need to to make sure react is installed along w
 
 This is a great tool for anyone that is trying to build a portfolio. This is a great way to present to future employers all the work that you have done, and are proud of. 
 ![challenge20-screenshot](./src/images/challenge20-screenshot.png)
+https://vitafomin.github.io/challenge-20-react-portfolio/
 
 ## Credits
 
